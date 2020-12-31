@@ -83,7 +83,7 @@ function insertHomeList(data) {
 
 function addList() {
   const http = new EasyHTTP();
-  http.get('o_json/cityList.json', true).then(function (data) {
+  http.get('json/cityList.json', true).then(function (data) {
     showLoading("#city-container")
     setTimeout(() => {
       insertHomeList(data)
@@ -166,7 +166,7 @@ function insertCityPage(data){
 
 loadCityPage = function (theValue) {
   let city=theValue.parentElement.id
-  let url = 'o_json/'+city+'.json';
+  let url = 'json/'+city+'.json';
   const http = new EasyHTTP();
   http.get(url,true).then(function (data){
     showLoading('#main-container')
