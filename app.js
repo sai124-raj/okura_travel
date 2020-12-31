@@ -87,7 +87,7 @@ function addList() {
     showLoading("#city-container")
     setTimeout(() => {
       insertHomeList(data)
-    }, 2000);
+    }, 1000);
   }).catch(function (ree) {
     console.log(ree);
   })
@@ -173,6 +173,6 @@ loadCityPage = function (theValue) {
     setTimeout(() => {
       insertCityHomeBackground(data);
       insertCityPage(data);
-    }, 2000);
+    }, 1000);
   })
 }
