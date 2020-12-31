@@ -18,6 +18,14 @@ const insertProperty = function (strig, propName, propValue) {
   return strig
 }
 
+const showLoading = function(whereToInsert) {
+  const snippet = `
+  <div class='text-center'>
+    <img src='img/ajax-loader.gif'>
+  </div>
+  `
+  insertHTML(snippet,whereToInsert)
+}
 
 function EasyHTTP() {
   this.http = new XMLHttpRequest()
@@ -76,7 +84,10 @@ function insertHomeList(data) {
 function addList() {
   const http = new EasyHTTP();
   http.get('o_json/joo.json', true).then(function (data) {
-    insertHomeList(data)
+    showLoading("#city-container")
+    setTimeout(() => {
+      insertHomeList(data)
+    }, 2000);
   }).catch(function (ree) {
     console.log(ree);
   })
@@ -158,7 +169,10 @@ loadCityPage = function (theValue) {
   let url = 'o_json/'+city+'.json';
   const http = new EasyHTTP();
   http.get(url,true).then(function (data){
-    insertCityHomeBackground(data);
-    insertCityPage(data);
+    showLoading('#main-container')
+    setTimeout(() => {
+      insertCityHomeBackground(data);
+      insertCityPage(data);
+    }, 2000);
   })
 }
