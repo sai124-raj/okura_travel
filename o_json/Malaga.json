@@ -1,0 +1,40 @@
+{
+  "title":"Malaga",
+  "homeImage":"img/main-page/malaga.jpg",
+  "homeIcon":"img/Malaga/malaga_icon.png",
+  "homeLink":"http://www.parisinfo.com/",
+  "facebookLink":"https://www.facebook.com/MalagaTurismoOficial/",
+  "twitterLink":"https://twitter.com/turismodemalaga",
+  "youtubeLink":"http://www.youtube.com/user/malagaturismo",
+  "instagramLink":"https://www.instagram.com/malagaturismo/",
+  "hotel":[
+    {
+      "hotelName":"Málaga Centro Hostel",
+      "hotelPrice":"172",
+      "location":"600 m from airport",
+      "ratings":"4.7",
+      "advantage":"Couples particularly like the location ",
+      "hotelImage":"img/Malaga/hotelm1.webp"
+    },
+    {
+      "hotelName":"Campanile Málaga Airport",
+      "hotelPrice":"202",
+      "location":"Located in spain historical centre",
+      "ratings":"4.8",
+      "advantage":"Best cinder and cfv",
+      "hotelImage":"img/Malaga/hotelm2.webp"
+    },
+    {
+      "hotelName":"Hotel Sur Málaga",
+      "hotelPrice":"194",
+      "location":"6 km from spain city hall",
+      "ratings":"4.8",
+      "advantage":"friendly staff",
+      "hotelImage":"img/Malaga/hotelm3.webp"
+    }
+  ],
+  "flights":[799,610,597,714,217,326],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>M</e>alaga is a unique destination in Europe and a mix of modern, traditional, culture, beach, gastronomy and shopping. The city of Malaga is a destination that combines leisure tourism, business with an incredibly extensive cultural offering of worldwide recognition as well as amazing events.",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952891.07534272!2d-5.299357675760553!3d36.62602723454655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYSwgU3BhaW4!5e0!3m2!1sen!2sin!4v1609349722419!5m2!1sen!2sin' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>"
+}

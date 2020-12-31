@@ -1,0 +1,40 @@
+{
+  "title":"Monte Isola",
+  "homeImage":"img/main-page/monte_isla.jpg",
+  "homeIcon":"img/MonteIsola/monte_isola.png",
+  "homeLink":"http://www.visitmonteisola.it/",
+  "facebookLink":"https://www.facebook.com/visitmonteisola/?hc_ref=SEARCH&fref=nf",
+  "twitterLink":"https://twitter.com/hashtag/montisola?lang=en",
+  "youtubeLink":"https://www.youtube.com/watch?v=4DII7ulFvRU",
+  "instagramLink":"https://www.instagram.com/visitmonteisola/",
+  "hotel":[
+    {
+      "hotelName":"LA FORESTA MONTE ISOLA",
+      "hotelPrice":"180",
+      "location":"Located on the peaceful shores of Monte Isola ",
+      "ratings":"4.7",
+      "advantage":"Great breakfast, lake view",
+      "hotelImage":"img/MonteIsola/m1hotel.jpg"
+    },
+    {
+      "hotelName":"COME UNA VOLTA",
+      "hotelPrice":"402",
+      "location":"Located in Peschiera Maraglio",
+      "ratings":"4.8",
+      "advantage":"Great location, friendly staff",
+      "hotelImage":"img/MonteIsola/m2hotel.jpg"
+    },
+    {
+      "hotelName":"LA PERLA",
+      "hotelPrice":"124",
+      "location":"Located in Menzino",
+      "ratings":"4.1",
+      "advantage":"Mordern apartments, outdoor pool, terraces",
+      "hotelImage":"img/MonteIsola/m3hotel.jpg"
+    }
+  ],
+  "flights":[714,217,326,597,799,610],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>M</e>onte Isola is a green mountain emerging at the centre of Iseo Lake. In every season special, wonderful and suggestive landscape makes this island of almost 5 km2 (450 hectares) a real Italian pearl. In the island there are eleven villages; the connections with the Brescian shore of the lake take place between Sulzano - Peschiera and Sale M. - Carzano.",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31047.42090813256!2d10.053971604653986!3d45.7078874139196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781630d814db129%3A0xc198e9d954e2f45e!2s25050%20Monte%20Isola%2C%20Province%20of%20Brescia%2C%20Italy!5e0!3m2!1sen!2sin!4v1609322930452!5m2!1sen!2sin' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>"
+}

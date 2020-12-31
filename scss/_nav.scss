@@ -1,0 +1,118 @@
+.navbar{
+  background-color: #4c9ae959;
+  @include fixed(top);
+  
+  .nav-brand{
+    @include flex(flex-start,row);
+    padding:0 15px;
+    a{
+      img{
+        height: 50px;
+        width: 50px;
+      }
+    }
+
+    .nav-brand-name{
+      font-size: 1.2rem;
+      color: $brand-color;
+      font-weight:600;
+      background-color: #fff;
+      margin-left: 10px;
+
+      p{
+        font-size:.8rem;
+        font-weight: 400;
+        font-style: italic;
+      };
+    }
+  }
+  ul{
+    @include flex(center,row);
+
+    li{
+      list-style: none;
+      position: relative;
+      overflow: hidden;
+      
+
+      &{
+        padding-bottom: 10px;
+      }
+
+      &::before{
+        content: '';
+        width:50%;
+        height: 3px;
+        background-color: #24527a;
+        position: absolute;
+        bottom:0;
+        left:-50%;
+        transition: 300ms ease-in-out;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      &:hover,&:active{
+        &::before{
+          transform: translateX(150%);
+        }
+      }
+      a{
+        text-decoration: none;
+        cursor: pointer;
+        color: #24527a !important;
+        &:active{
+          color: #24527a;
+        }
+        
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:576px) {
+  .navbar{
+    .container{
+      padding-bottom: 0;
+    }
+    .nav-brand{
+      @include flex(center,column);
+
+      .nav-brand-name{
+        font-size: .9rem;
+        background-color: transparent;
+        p{
+          font-size: .5rem;
+        }
+      }
+    }
+    ul{
+      li{
+        padding-bottom: 3px !important;
+        a{
+          img:first-child{
+            width:18px !important;
+            height:18px !important;
+          }
+
+        }
+        
+      }
+    }
+  }
+  .scrolling-active{
+    .nav-brand{
+      display: none;
+    }
+    ul{
+      padding-top:10px;
+    }
+  }
+}
+
+.scrolling-active{
+  background-color: #4c9ae959;
+  border-bottom: 2px solid $brand-color;
+  .container{
+    padding: 10px 15px 0 15px;
+  }
+}

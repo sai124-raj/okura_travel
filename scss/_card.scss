@@ -1,0 +1,80 @@
+.card {
+  box-shadow: $card-shadow;
+  position: relative;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-image {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .card-image~.card-body {
+    border: 1px solid #d5d5d5;
+    border-top: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    .card-content{
+      .card-list{
+        i{
+          color: #3498bd;
+          font-size: 30px;
+          margin-right: 5px;
+        }
+        p{
+          color: #32a067;
+        }
+      }
+    }
+  }
+
+  .card-body {
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+
+    .card-title {
+      display: grid;
+      grid-template-columns: 1fr 40px;
+
+      h4 {
+        font-weight: 500;
+        color: #fc5b62 !important;
+      }
+
+      .badge {
+        background-color: $brand-color;
+        line-height: 1;
+        @include flex(center, row);
+        color: #fff;
+        border-radius: 5px 5px 5px 0px;
+      }
+    }
+
+    .card-content {
+
+      .card-list {
+        padding: 5px 5px 5px 0;
+        @include flex(flex-start, row);
+
+        i {
+          color: #000000;
+          font-size: 15px;
+          margin-right: 5px;
+        }
+
+        p {
+          color: #000000;
+        }
+      }
+
+      &>div {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

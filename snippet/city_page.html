@@ -1,0 +1,43 @@
+<div class="container py-15 mx-auto px-15 head-container">
+  <div class="row">
+    <div class="grid-12 grid-xl-12 px-15 py-8">
+      <div class="head-context">
+        <h1 class="text-center">{{title}}</h1>
+        <div style="display: block;" class="title-underline"></div>
+      </div>
+      <div class="grid-12 grid-xl-12">
+        <div class="city-icon text-center">
+          <a href={{home-link}}><img src={{homeIcon}} alt="city-icon"></a>
+        </div>
+        <ul class="city-social-list text-center">
+          <a href={{facebook-link}} class="city-link facebook">
+            <img src="img/social/facebook .svg" width="20" height="20" alt="facebook">
+          </a>
+          <a href={{twitter-link}} class="city-link twitter">
+            <img src="img/social/twitter.svg" width="20" height="20" alt="twitter">
+          </a>
+          <a href={{instagram-link}} class="city-link instagram">
+            <img src="img/social/instagram.svg" width="20" height="20" alt="instagram">
+          </a>
+          <a href={{youtube-link}} class="city-link youtube">
+            <img src="img/social/youtube.svg" width="20" height="20" alt="youtube">
+          </a>
+        </ul>
+        <div class="city-map">
+          {{embedded-map}}
+        </div>
+        <div class="city-description py-15">
+          {{description}}
+        </div>
+      </div>
+      <h3 class="text-center">Hotels</h3>
+      <div class="title-underline"></div>
+      <div class="row" id="hotel">
+      </div>
+      <h3 class="text-center">Flights</h3>
+      <div class="title-underline"></div>
+      <div class="row" id="flight">
+      </div>
+    </div>
+  </div>
+</div>

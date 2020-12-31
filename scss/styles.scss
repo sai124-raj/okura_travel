@@ -1,0 +1,100 @@
+@import 'utlities';
+@import 'nav';
+@import 'button';
+@import 'city';
+@import 'card';
+@import 'footer';
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  background-color: #fff;
+}
+
+.flex-center{
+  @include flex(center,column);
+  height: 100%;
+  width: 100%;
+}
+
+.d-block{
+  display: block;
+}
+
+.fixed-bottom{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: $text-color;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+#head-section{
+  width:100%;
+
+  .bkg{
+    width: 100%;
+    height: auto;
+    background:$home-section-gradient;
+    overflow: hidden;
+    position: relative;
+    .bkg-img{
+      max-height: 500px;
+      object-fit: cover;
+      object-position: 100%;
+      opacity: 0.6 ;
+    }
+    .middle-content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      h2{
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+    
+  }
+}
+
+#main-container{
+  .title-underline:last-child{
+    display: none;
+  }
+  & h4{
+    color: $text-color;
+  }
+  p{
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    strong{
+      color: $text-color;
+    }
+  }
+  .head-context{
+    &>h1{
+      color: $text-color;
+    }
+
+  }
+}
+
+
+// small devices
+@media only screen and (max-width:576px){
+  .middle-content{
+    display: none !important;
+  }
+}

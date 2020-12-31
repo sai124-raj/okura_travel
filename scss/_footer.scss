@@ -1,0 +1,147 @@
+@mixin hover_delay($color){
+  transition-delay: .2s;
+  background: $color;
+}
+
+
+
+#foot-section {
+  background-color: #121921;
+  color: #fbfbfbb0;
+  padding: 30px;
+
+  row {
+    padding: 5%;
+  }
+
+  p {
+    padding: 10px 5px;
+  }
+
+  .foot-brand {
+    @include flex(start, row);
+  }
+
+  .follow_us {
+
+    ul {
+      width: 100%;
+
+      li {
+        list-style: none;
+        display: inline-block;
+
+        a {
+          display: flex;
+          padding: 10px;
+          border-radius: 50%;
+        }
+
+        .facebook:hover{
+          @include hover_delay(#3498db);
+        }
+        
+
+        .twitter:hover {
+          @include hover_delay(#43b4ff)
+        }
+
+        .instagram:hover {
+          @include hover_delay(rgba(206, 62, 146, 0.89))
+        }
+
+        .youtube:hover {
+          @include hover_delay(rgb(231, 22, 22))
+        }
+      }
+
+      &:first-child {
+        letter-spacing: 2px;
+        font-size: .8125rem;
+        text-transform: uppercase;
+        margin-left: 0px !important;
+      }
+
+
+
+    }
+  }
+
+  h5 {
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+  }
+
+  .useful-link {
+
+    h5 {
+      text-transform: capitalize;
+      margin-bottom: 6px;
+      font-size: 1.1rem;
+    }
+
+    ul {
+      li {
+        list-style: none;
+        margin-bottom: 5px;
+
+        &:hover {
+          margin-left: 5px;
+          color: #e12020;
+          transition: .3s ease-in;
+        }
+      }
+    }
+  }
+
+  .contacts {
+    a {
+      font-size: .95rem;
+      text-decoration: none;
+      color: #fbfbfbb0;
+    }
+  }
+
+  a:hover {
+    transform: translateX(1px);
+    color: #e12020;
+
+  }
+
+  .foot-last,
+  .img-foot {
+    margin-top: 10px;
+  }
+  .title-underline{
+    margin: 15px;
+  }
+
+  .foot-last {
+    text-align: right;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+
+      li {
+        list-style: none;
+        color: #fff;
+        opacity: .5;
+        margin-right: 20px;
+        font-weight: 400;
+        font-size: 0.9125rem;
+
+        &::after {
+          content: "|";
+          font-weight: 300;
+          position: relative;
+          left: 10px;
+        }
+        &:last-child::after{
+          content: '';
+        }
+      }
+    }
+  }
+}
+

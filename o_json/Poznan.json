@@ -1,0 +1,64 @@
+{
+  "title":"Poznan",
+  "homeImage":"img/main-page/poznan.jpg",
+  "homeIcon":"img/Poznan/poznan_icon.png",
+  "homeLink":"http://poznan.travel/en/",
+  "facebookLink":"https://www.facebook.com/Poznan.travel",
+  "twitterLink":"https://www.twitter.com/poznantravel",
+  "youtubeLink":"https://www.youtube.com/watch?v=V-TraWXFbCs",
+  "instagramLink":"https://www.instagram.com/poznan.travel",
+  "hotel":[
+    {
+      "hotelName":"PURO POZNAŃ",
+      "hotelPrice":"198",
+      "location":"250 m from the Old Market Square",
+      "ratings":"4.7",
+      "advantage":"Perfect location, clean, boutique style ",
+      "hotelImage":"img/Poznan/hotelp1.jpg"
+    },
+    {
+      "hotelName":"PARK INN BY RADISSON",
+      "hotelPrice":"292",
+      "location":"300 m from City Hall",
+      "ratings":"4.8",
+      "advantage":"Staff, good breakfast, location",
+      "hotelImage":"img/Poznan/hotelp2.jpg"
+    },
+    {
+      "hotelName":"MOON HOSTEL",
+      "hotelPrice":"294",
+      "location":"7-minute walk from City Hall",
+      "ratings":"4.8",
+      "advantage":"ocation, friendly staff, clean",
+      "hotelImage":"img/Poznan/hotelp3.jpg"
+    },
+    {
+      "hotelName":"HAMPTON BY HILTON",
+      "hotelPrice":"172",
+      "location":"5-minute walk from Old Market Square",
+      "ratings":"4.7",
+      "advantage":"Good location, great breakfast",
+      "hotelImage":"img/Poznan/hotelp4.jpg"
+    },
+    {
+      "hotelName":"STAY99 APARTMENTS ",
+      "hotelPrice":"202",
+      "location":"Old Town Square is 100 m away",
+      "ratings":"4.8",
+      "advantage":"Kitchenette, perfect location, comfy beds",
+      "hotelImage":"img/Poznan/hotelp5.jpg"
+    },
+    {
+      "hotelName":"SHERATON POZNAN HOTEL",
+      "hotelPrice":"194",
+      "location":"850 m away from Poznań Railway Station",
+      "ratings":"4.8",
+      "advantage":"Fitness centre, breakfast, friendly staff, ",
+      "hotelImage":"img/Poznan/hotelp6.jpg"
+    }
+  ],
+  "flights":[597,714,217,799,610,326],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>P</e>oznan is Poland's 5th largest city and one of its oldest. Situated halfway between Warsaw and Berlin, it combines a unique heritage with rich cultural offer, lively atmosphere and spirit of entrepreneurship.",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d130017.90162961459!2d16.81866441725365!3d52.401330581902954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhCwgUG9sYW5k!5e0!3m2!1sen!2sin!4v1609348562334!5m2!1sen!2sin' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>"
+}

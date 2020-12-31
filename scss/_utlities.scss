@@ -1,0 +1,143 @@
+$background-color:#79c9c761;
+$text-color: #458b8a;
+$brand-color: #24527a;
+$blue: #3498db;
+$hotel-gradient: linear-gradient(to top, #131313 6%, rgba(19, 19, 19, 0.2) 72%, rgba(34, 34, 34, 0) 89%, rgba(44, 44, 44, 0) 100%);
+$card-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.1);
+$home-section-gradient:linear-gradient(120deg,#eaee44,#33d0ff);
+
+@mixin flex($justify, $direction){
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $direction;
+  align-items: center;
+}
+
+@mixin fixed($pos){
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  $pos:0;
+}
+
+.img-fluid{
+  width:100%;
+  height:auto;
+}
+.container{
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+$spacesnum : (4,5,8,10,12,15,20);
+$spaceauto : (auto);
+
+@each $num in $spacesnum {
+  .m-#{$num} {
+    margin: #{$num}px;
+  }
+  .mx-#{$num} {
+    margin:0 #{$num}px;
+  }
+  .my-#{$num} {
+    margin:#{$num}px 0;
+  }
+  .p-#{$num} {
+    padding: #{$num}px;
+  }
+  .px-#{$num} {
+    padding:0 #{$num}px;
+  }
+  .py-#{$num} {
+    padding:#{$num}px 0;
+  }
+  
+}
+
+@each $num in $spaceauto {
+  .m-#{$num} {
+    margin: #{$num};
+  }
+  .mx-#{$num} {
+    margin:0 #{$num};
+  }
+  .my-#{$num} {
+    margin:#{$num} 0;
+  }
+  .p-#{$num} {
+    padding: #{$num};
+  }
+  .-#{$num} {
+    padding:0 #{$num};
+  }
+  .py-#{$num} {
+    padding:#{$num} 0;
+  }
+  
+}
+
+.text-center{
+  text-align: center;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-gap:0 15px; 
+}
+$spanNum : (1,2,3,4,5,6,7,8,9,10,11,12);
+
+@each $spa in $spanNum {
+  @media (min-width:1200px) {
+    .grid-#{$spa}{
+      grid-column: span #{$spa};
+    }
+  }
+}
+@each $spa in $spanNum {
+  @media only screen and (max-width:1200px) {
+    .grid-xl-#{$spa} {
+      grid-column: span #{$spa};
+    }
+    .container{
+      max-width: 1140px;
+    }
+  }
+}
+@each $spa in $spanNum {
+  @media only screen and (max-width:992px) {
+    .grid-lg-#{$spa} {
+      grid-column: span #{$spa};
+    }
+    .container{
+      max-width: 960px;
+    }
+  }
+}
+@each $spa in $spanNum {
+  @media only screen and (max-width:768px) {
+    .grid-md-#{$spa} {
+      grid-column: span #{$spa};
+    }
+    .container{
+      max-width: 720px;
+    }
+  }
+}
+@each $spa in $spanNum {
+  @media only screen and (max-width:576px) {
+    .grid-sm-#{$spa} {
+      grid-column: span #{$spa};
+    }
+    .container{
+      max-width: 540px;
+    }
+  }
+}
+
+.title-underline{
+  border-bottom:1px solid $text-color;
+  margin: 5px 25%;
+}

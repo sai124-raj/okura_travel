@@ -1,0 +1,65 @@
+{
+  "title":"Budapest",
+  "homeImage":"img/main-page/budapest.jpg",
+  "homeIcon":"img/Budapest/budapest_icon.png",
+  "homeLink":"https://www.budapestinfo.hu/",
+  "facebookLink":"https://www.facebook.com/visitbudapest",
+  "twitterLink":"https://twitter.com/VisitBudapest",
+  "youtubeLink":"http://www.youtube.com/user/budapesttourism?feature=results_main",
+  "instagramLink":"https://www.instagram.com/budapest_official/",
+  "hotel":[
+    {
+      "hotelName":"Hotel Clark Budapest",
+      "hotelPrice":"112",
+      "location":"Close to popular attractions",
+      "ratings":"4.6",
+      "advantage":"Offering spectacular views of Budapest",
+      "hotelImage":"img/Budapest/b1hotel.jpg"
+    },
+    {
+      "hotelName":"MEININGER Budapest",
+      "hotelPrice":"36",
+      "location":"One of the best-rated locations in Budapest",
+      "ratings":"4.1",
+      "advantage":"Family rooms, great location, friendly staff",
+      "hotelImage":"img/Budapest/b2hotel.jpg"
+    },
+    {
+      "hotelName":"Kempinski Budapest",
+      "hotelPrice":"149",
+      "location":"Situated in the real heart of Budapest,",
+      "ratings":"4.8",
+      "advantage":"Location, city view, spa and wellness centre",
+      "hotelImage":"img/Budapest/b3hotel.jpg"
+    },
+    {
+      "hotelName":"Maison Bistro & Hotel",
+      "hotelPrice":"92",
+      "location":"400 m from Matthias Church",
+      "ratings":"4.2",
+      "advantage":"Great breakfast, perfect location",
+      "hotelImage":"img/Budapest/b4hotel.jpg"
+    },
+    {
+      "hotelName":"Moments Budapest",
+      "hotelPrice":"122",
+      "location":"3-minute walk from St.Stephen's Basilica",
+      "ratings":"4.6",
+      "advantage":"Family rooms, great location, friendly staff",
+      "hotelImage":"img/Budapest/b5hotel.jpg"
+    },
+    {
+      "hotelName":"Hotel D8 Budapest",
+      "hotelPrice":"108",
+      "location":"400 m from Chain Bridge",
+      "ratings":"4.2",
+      "advantage":"Location, modern hotel, friendly staff",
+      "hotelImage":"img/Budapest/b6hotel.jpg"
+    }
+  ],
+  "flights":[899,910,714,218,329,567],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>A</e> city in a stunning natural setting with a rich architectural and historical heritage, offering an unmatched combination of culture, blooming gastronomy and the advantages of thermal waters and world heritage sights. </p><p>Divided in two by the Danube, the city is made up of Buda on one side: with Ottoman-era thermal baths at the foot of Gellért Hill, the royal palace and Matthias Church, it radiates calm and peace. One the other side lies Pest, vibrant and lively, with its slew of museums rich in cultural and historical treasures, extraordinary Art Nouveau architecture, its majestic Parliament building, Saint Stephen’s Basilica surrounded by pedestrian streets, and its entirely renovated Jewish Quarter and Palace District. Massive murals, small pop-up sculptures and ruin bars full of random décor – Budapest is brimming with urban art. Striking paintings brighten the city’s old firewalls and passers mood.</p><p>Budapest has a highly developed cultural scene with its world-class festivals, theatres, museums, concert halls and sport events. Budapest is going to have the title Europe’s sport capital” in 2019. For relaxing and enjoying nature, Margaret Island is the city’s “green heart” considered by many to be one of Europe’s best city parks - the perfect place to enjoy a stroll, various sports, swimming in outdoor pools or soaking in thermal baths and spas. ",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148464.21103772454!2d19.03812338153414!3d47.47759317783748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c334d1d4cfc9%3A0x400c4290c1e1160!2sBudapest%2C%20Hungary!5e0!3m2!1sen!2sin!4v1608552854022!5m2!1sen!2sin' width='800' height='600' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>",
+  "embedded-ylink":"<iframe src='https://www.youtube.com/embed/5pqFIZvWtmU?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&theme=light&color=white&autohide=0&disablekb=1' width='560' height='315' frameborder='0'></iframe>"
+}

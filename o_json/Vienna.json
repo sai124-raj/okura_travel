@@ -1,0 +1,65 @@
+{
+  "title":"Vienna",
+  "homeImage":"img/main-page/vienna.jpg",
+  "homeIcon":"img/Vienna/vienna_icon.png",
+  "homeLink":"http://www.wien.info/",
+  "facebookLink":"http://www.facebook.com/WienTourismus",
+  "twitterLink":"http://www.twitter.com/WienInfoB2B",
+  "youtubeLink":"http://www.youtube.com/Vienna",
+  "instagramLink":"https://www.instagram.com/viennatouristboard/",
+  "hotel":[
+    {
+      "hotelName":"SOFITEL VIENNA STEPHANSDOM",
+      "hotelPrice":"289",
+      "location":"In the very heart of the city",
+      "ratings":"4.5",
+      "advantage":"Stylish hotel with panoramic views over Vienna ",
+      "hotelImage":"img/Vienna/hotelV1.jpg"
+    },
+    {
+      "hotelName":"NH COLLECTION WIEN ZENTRUM ",
+      "hotelPrice":"208",
+      "location":"Located on Vienna’s biggest shopping street",
+      "ratings":"4.8",
+      "advantage":"Spacious and modern rooms",
+      "hotelImage":"img/Vienna/hotelV2.jpg"
+    },
+    {
+      "hotelName":"GRAND FERDINAND",
+      "hotelPrice":"354",
+      "location":"Located right in the centre of Vienna",
+      "ratings":"3.8",
+      "advantage":"Breathtaking views and a rooftop pool",
+      "hotelImage":"img/Vienna/hotelV3.jpg"
+    },
+    {
+      "hotelName":"HOTEL SAVOYEN",
+      "hotelPrice":"425",
+      "location":"Located right next the Botanical Garden",
+      "ratings":"4.8",
+      "advantage":"Spacious bathrooms, fitness and spa area ",
+      "hotelImage":"img/Vienna/hotelV4.jpg"
+    },
+    {
+      "hotelName":"GRAND HOTEL WIEN",
+      "hotelPrice":"372",
+      "location":"3-minute walk from the Vienna State Opera",
+      "ratings":"4.2",
+      "advantage":"Michelin-starred restaurant and 200m2 Grand Spa",
+      "hotelImage":"img/Vienna/hotelV5.jpg"
+    },
+    {
+      "hotelName":"HOTEL KÄRNTERHOF",
+      "hotelPrice":"324",
+      "location":"Quiet location in Vienna’s city centre",
+      "ratings":"4.8",
+      "advantage":"Large breakfast buffet and private parking",
+      "hotelImage":"img/Vienna/hotelV6.jpg"
+    }
+  ],
+  "flights":[799,610,714,217,326,597],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>V</e>ienna's musical diversity ranges from early times through to the present day: people have been dancing in three-four time to Johann Strauss' world-famous Blue Danube Waltz for 150 years already. His golden statue in the Stadtpark is probably Vienna's most popular photo motif, the original apartment on Praterstrasse exudes the flair of the age, and the House of Music presents Strauss and the Viennese waltz. Dancing is always on the program in Vienna, whether at a waltz dance course or doing the Lindy Hop. Jazz sounds, club sounds and electronic music ensure lively nights of partying.",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197818.35747395622!2d16.198239702016952!3d48.207991105115504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2sVienna%2C%20Austria!5e0!3m2!1sen!2sin!4v1609340855648!5m2!1sen!2sin' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>",
+  "embedded-ylink":"<iframe src='https://www.youtube.com/embed/5pqFIZvWtmU?modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&theme=light&color=white&autohide=0&disablekb=1' width='560' height='315' frameborder='0'></iframe>"
+}

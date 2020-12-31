@@ -1,0 +1,40 @@
+{
+  "title":"Paris",
+  "homeImage":"img/main-page/paris.jpg",
+  "homeIcon":"img/Paris/paris_icon.png",
+  "homeLink":"http://www.parisinfo.com/",
+  "facebookLink":"https://www.facebook.com/p.infos",
+  "twitterLink":"https://twitter.com/ParisOTC",
+  "youtubeLink":"http://www.youtube.com/user/ParisOTC?feature=watch",
+  "instagramLink":"http://instagram.com/paris_jetaime",
+  "hotel":[
+    {
+      "hotelName":"Au Royal Mad",
+      "hotelPrice":"172",
+      "location":"600 m from Arc de Triomphe",
+      "ratings":"4.7",
+      "advantage":"Couples particularly like the location ",
+      "hotelImage":"img/Paris/p1hotel.webp"
+    },
+    {
+      "hotelName":"citizenM Paris Gare de Lyon",
+      "hotelPrice":"202",
+      "location":"Located in paris's historical centre",
+      "ratings":"4.8",
+      "advantage":"Best champange and louire's musem",
+      "hotelImage":"img/Paris/p2hotel.webp"
+    },
+    {
+      "hotelName":"Hôtel De Castiglione",
+      "hotelPrice":"194",
+      "location":"6 km from paris's historical city centre",
+      "ratings":"4.8",
+      "advantage":"friendly staff",
+      "hotelImage":"img/Paris/p3hotel.webp"
+    }
+  ],
+  "flights":[799,610,597,714,217,326],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>P</e>aris is one of the from resting on its laurels, the French capital has taken a pro-active approach to enhancing its appeal by undertaking a quality-focused and sustainable development strategy based on constant innovation. This great city is a blend of past and future. Its pleasingly symmetrical layout, the result of the work of visionary rulers and architects, dates to the 19th century, while 21st-century Paris is a laboratory of the future. Paris is a dream destination for French and international visitors alike.",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2770197739280182!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sin!4v1609324074021!5m2!1sen!2sin' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>"
+}

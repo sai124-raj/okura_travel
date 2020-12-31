@@ -1,0 +1,84 @@
+[
+  {
+    "name":"Budapest, Hungary",
+    "id":"Budapest",
+    "description":"The city setting is stunning with a rich architectural and historical heritage: it offers an unmatched combination of culture, blooming gastronomy and the advantages of thermal waters and world heritage sights. The pearl of the Danube is not only the best European destination, it is also one of the most beautiful and safest cities in the world. Budapest offers the elegance of Paris, the architectural heritage of Vienna, the charm of Porto, Stockholm’s gentle way of life. </p><p>Join Budapest lovers and book your flight, accommodation and best tours in Budapest such as a Danube Cruise, a visit to the Buda Castle or an alternative Budapest walking tour of both Buda and Pest and enjoy your stay in the best destination in Europe! A word of advice: your Instagram account is at risk of blowing up if you share all the photos you will be taking!",
+    "image":"budapest.jpg",
+    "best":"Lovers, City break, Culture, Christmas, Nightlife, Wellness, Instagram.",
+    "flight":" Budapest Ferenc Liszt International Airport"
+  },
+  {
+    "name":"Braga, Portugal",
+    "id":"Braga",
+    "description":"Stroll through its shopping streets and marvel at the beauty of its Gothic Cathedral. Take a romantic break in the Santa Barbara Garden or walk to the top of Bom Jesus do Monte. Even the sky does not seem to be a limit for Braga and its inhabitants. Whether you are a believer or not, the Sanctuary of Our Lady of Sameiro is breathtakingly beautiful and inspiring. </p><p>Braga offers a unique experience with a mix of traditional shops, young designer shops and shopping centres. Want to move, dance, laugh and share unforgettable moments? Braga offers high quality events throughout the year. More? The biggest White Night in Europe takes place in Braga with dozens of street concerts. Braga is made for lovers, adventurers, foodies, history buffs and those who seek new trends and experiences. Open your eyes, beauty is all around you!",
+    "image":"braga.jpg",
+    "best":"Culture, City break, Shopping, Nature, Gastronomy, Wellness, Instagram addicts",
+    "flight":"Porto Airport (OPO)"
+  },
+  {
+    "name":"Paris, France",
+    "id":"Paris",
+    "description":"Paris is sublime in the spring but it is worth a visit at any time of the year. Culturally unrivaled, Paris is the destination to put on top of your travel bucket list if you like cultural city breaks. The museums of Paris house the greatest masterpieces but its streets, alleys, artist workshops are all to be enjoyed! Picasso, Man Ray, Marcel Duchamp, Brancusi, Yves Klein, Modigliani, but also Molière, Zola, Hugo lived in “the most beautiful city in the world.</p><p>Paris combines Rome and Berlin’s treasures in one. The city is very lively, both historic and very modern and art is simply everywhere! For centuries Paris has been setting the tone for the whole country, Europe and the world. Paris is everything: gastronomy, romance, elegance, madness, beauty… Paris is a city of human experiences: walk and get lost in its beautiful alleys and parks in the Luxembourg Gardens or the Parc des Buttes-Chaumont.",
+    "image":"paris.jpg",
+    "best":"Lovers, Families, Modern Art, City break, Shopping, Instagrammers, Foodies, Friends.",
+    "flight":"Charles de Gaulle "
+  },
+  {
+    "name":"Monte Isola, Italy",
+    "id":"MonteIsola",
+    "description":"Monte Isola is probably one of the most beautiful destinations in Italy. Located on Lake Iseo, just 2 hours from Milan, Monte Isola offers the best of Lombardy on a few square kilometers. This great mountain emerging in the middle of a beautiful lake is paradise on earth. Monte Isola has been banning cars for a long time and has been awarded the EDEN - European Destination of Excellence by the European Commission for its commitment to sustainable tourism and the maintenance of local production </p><p>Monte Isola seduces travellers from all over the world; it has inspired great artists such as Cristo who chose the island for one of his most stunning artistic installations. Monte Isola seduces families, lovers, hikers, those who want to relax, feel authenticity, human warmth and respect for nature. Discover local crafts, fishing nets, local produce such as salami, fish in oil, wild asparagus, extra virgin olive oil, sun dried sardines, fresh tomatoes, arugula or chubs and perches. Monte Isola is also a paradise for gourmets. Like Franciacorta’s wines, it is seductive, sparkling, incomparable",
+    "image":"monte_isla.jpg",
+    "best":": Nature, Gastronomy, Sustainable Tourism, Lovers, Digital detox. ",
+    "flight":"Bergamo, Milan (train station: 1 stop Brescia,Terminus Iseo)."
+  },
+  {
+    "name":"Vienna, Austria",
+    "id":"Vienna",
+    "description":"Vienna is history with a capital H, gastronomy, wine, organic and local markets. Vienna is also an incredible architecture with the Hundertwasser Museum, chic restaurants and trendy bars but also amusement parks for young and old. Vienna is classy and fun at the same time. </p><p>Climb aboard one of the most beautiful big wheels in Europe and whistle Strauss’ Blue Danube; you can also make your marriage proposal or treat yourself to a guided tour of the Schönbrunn Palace and learn how to cook the famous Strudel. There are a thousand experiences to live in Vienna, one of the best European destinations.",
+    "image":"vienna.jpg",
+    "best":" Lovers, City break, Culture, Shopping, Christmas, Architecture, Childrens.",
+    "flight":"Vienna airport"
+  },
+  {
+    "name":"Poznan, Poland",
+    "id":"Poznan",
+    "description":"Poland is one of the trendiest tourist destinations not to be missed this year. Do you like history, castles? Poznań is made for you with its incredible Renaissance style town hall, its huge medieval-like castle or the colourful facades of Stary Rynek (the Old Market Square). </p><p>Stary Browar is one of the most beautiful shopping centres in the world as well as being a business art centre. ? Poznań is one of the greenest cities in Poland which many cyclists and pedestrians mostly enjoy in summer. Poznań also hosts incredible events such as the Ethno Port one of the best music festivals in the world.",
+    "image":"poznan.jpg",
+    "best":"City break, Culture, Shopping, Lovers, Christmas, Castle, Nightlife, Instagram ",
+    "flight":"Poznań Airport."
+  },
+  {
+    "name":"Málaga, Spain",
+    "id":"Malaga",
+    "description":"Forget Barcelona and Madrid this year and go for Málaga! Stroll through the alleys of the old historic centre, fill your lungs with fresh sea air on the quays, shop on the marinha or sip a cocktail on the rooftop of a trendy bar. For a panoramic view of the city, hop on the Grande-Roue or climb to the top of the Gibralfaro Castle for a 360-degree view of one of the most beautiful cities in Europe. Treat yourself to a day of thrills on the Caminito del Rey, one of the most beautiful natural attractions in Málaga province. Finally, enjoy a moment of pure bliss in one of Málaga’s magnificent hammams. ,</p><p>Málaga is a unique destination in Europe and a mix of modern and traditional. The city combines leisure, tourism, beach, gastronomy and shopping together with business and extensive cultural offerings and events of worldwide recognition.",
+    "image":"malaga.jpg",
+    "best":"Culture, Beach, Shopping, Nightlife, Gastronomy, City break, Sun, Instagram addicts. ",
+    "flight":"Malaga-Costa del Sol Airport."
+  },
+  {
+    "name":"Geneva, Switzerland",
+    "id":"Geneva",
+    "description":"Geneva is surprising, sparkling and perfect for a city break, for shopping, culture and nature lovers. </p><p>Geneva offers a smorgasbord of unmissable experiences in a one-of-a-kind natural setting. From the shores of the biggest lake in Western Europe in just one hour, find yourself at the foot of Mont-Blanc, the continent's highest peak. Feel like skiing in the morning and shopping in the afternoon? No problem! Anything is possible here! With its breathtaking views, Geneva will amaze you time and time again! From the famous Jet d'Eau jetting water 140 metres above Lake Geneva, to the picturesque countryside and its vineyard paths, enjoy being spellbound by its diverse and enchanting landscape",
+    "image":"geneva.jpg",
+    "best":"City break, Shopping, Culture, Trekking, Wine, Gastronomy, Nature, Lovers",
+    "flight":"Geneva Airport."
+  },
+  {
+    "name":"Rijeka, Croatia",
+    "id":"Rijeka",
+    "description":"Third largest city in Croatia, it has become one of the must-see destinations of this incredible country and was named European Capital of Culture in 2020. This city, which was once autonomous and independent is both respectful of its traditions and history and progressive. Rijeka is a destination for discerning travellers who do not want to have to choose between beach and city, culture and nature, tradition and modernity. </p><p>Do not miss the Rijeka Carnival, one of the most beautiful in Europe. For art lovers do not miss a visit to the Museum of Modern and Contemporary Art. Do you want to travel with your pet? No worries, Rijeka has many pet-friendly accommodations and beautiful pet-friendly beaches. Rijeka is most certainly the big tourism trend for 2020 and the coming years.",
+    "image":"rijeka.jpg",
+    "best":"Culture, Sea, Sun, Gastronomy, Instagram, History, Outdoor activities, Families, Carnival. ",
+    "flight":"Rijeka, Zagreb. "
+  },
+  {
+    "name":"Rome, Italy",
+    "id":"Rome",
+    "description":"For decades it has been one of the favourite European cities for travellers from all over the world. <strong>Roma Caput Mundi</strong>  Rome is the capital of the world. This is true in many ways. The Romans shaped the borders of Europe and enriched it culturally like no other civilization. </p><p>Rome is even more than Paris or Athens an open-air museum. The Italian capital is an ideal destination for a family trip to discover the Colosseum or make a romantic getaway to declare your love on the Spanish steps. Thousands of experiences await you in Rome.",
+    "image":"rome.jpg",
+    "best":"Culture, Foodies, Lovers, History.",
+    "flight":"Rome FCO"
+  }
+  
+
+]

@@ -1,0 +1,48 @@
+{
+  "title":"Rijeka",
+  "homeImage":"img/main-page/rijeka.jpg",
+  "homeIcon":"img/Rijeka/rijeka_icon.png",
+  "homeLink":"http://www.visitrijeka.eu/",
+  "facebookLink":"https://www.facebook.com/VisitRijeka",
+  "twitterLink":"https://twitter.com/visitRijeka",
+  "youtubeLink":"http://www.youtube.com/user/TZGRijeka",
+  "instagramLink":"http://instagram.com/visitrijeka/",
+  "hotel":[
+    {
+      "hotelName":"GRAND HOTEL BONAVIA",
+      "hotelPrice":"552",
+      "location":"Situated in the best rated area in Rijeka",
+      "ratings":"4.7",
+      "advantage":"Great Food: Meals here are highly recommended",
+      "hotelImage":"img/Rijeka/hotelr1.jpg"
+    },
+    {
+      "hotelName":"HOTEL CONTINENTAL",
+      "hotelPrice":"282",
+      "location":"Close to the main cultural & historical attractions",
+      "ratings":"4.2",
+      "advantage":"Great view, welcoming staff",
+      "hotelImage":"img/Rijeka/hotelr2.jpg"
+    },
+    {
+      "hotelName":"HOTEL JADRAN",
+      "hotelPrice":"574",
+      "location":"Situated on the coast 1 km from the centre",
+      "ratings":"4.8",
+      "advantage":"Sea view, great breakfast",
+      "hotelImage":"img/Rijeka/hotelr3.jpg"
+    },
+    {
+      "hotelName":"HOTEL NEBODER ",
+      "hotelPrice":"274",
+      "location":"1 km away from the scenic Trsat Hill",
+      "ratings":"4.5",
+      "advantage":"Free parking, great view",
+      "hotelImage":"img/Rijeka/hotelr4.jpg"
+    }
+  ],
+  "flights":[799,610,597,326,714,217],
+  "flightImage":["img/flights/airline-img.png","img/flights/airline-img2.png","img/flights/airline-img3.png","img/flights/airline-img4.png","img/flights/airline-img5.png","img/flights/airline-img6.png"],
+  "description":"<e class='first-big'>R</e>ijeka has been awarded the prestigious title of European Capital of Culture 2020 due to its history and to the projects that are being carried out, to its abundant cultural programmes and interesting features, as well as to the diverse range of partners and organisers. And because of the 'Port of diversity' programme. Rijeka is also the first Croatian city to boast this title. In 2020, we can expect more than 1000 programmes that will bring together people from various European countries and promote their multiculturalism. ",
+  "embeddedMap":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57834.361539154976!2d14.38871407765712!3d45.34006955369317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a12517aabe2d%3A0x373c6f383dcbb670!2sRijeka%2C%20Croatia!5e0!3m2!1sen!2sin!4v1609389502802!5m2!1sen!2sin' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>"
+}

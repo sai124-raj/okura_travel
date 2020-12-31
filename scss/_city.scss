@@ -1,0 +1,52 @@
+.city-social-list{
+  padding:5px;
+  @include flex(center,row);
+
+  .city-link{
+    background: #d2d2d2;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    @include flex(center,row);
+    border-radius: 50%;
+    outline: none;
+  }
+  .facebook:hover{
+    background:#3498db;
+  }
+  .twitter:hover {
+    background:#43b4ff;
+  }
+
+  .instagram:hover {
+    background:rgba(206, 62, 146, 0.89);
+  }
+
+  .youtube:hover {
+    background:rgb(231, 22, 22);
+  }
+}
+.city-map{
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  
+  iframe{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.city-description{
+  font-style: italic;
+
+  .first-big{
+    font-size: 2rem;
+    margin-right: 4px;
+  }
+}
+
+h3{
+  color: $text-color;
+}
